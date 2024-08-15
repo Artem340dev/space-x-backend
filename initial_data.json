@@ -1,0 +1,413 @@
+[
+  {
+    "model": "main.websiteelements",
+    "pk": 1,
+    "fields": {
+      "page": "main",
+      "element_tag": "#page-menu-navigation-element-1"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 2,
+    "fields": {
+      "page": "main",
+      "element_tag": "#page-menu-navigation-element-2"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 3,
+    "fields": {
+      "page": "main",
+      "element_tag": "#page-menu-navigation-element-3"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 4,
+    "fields": {
+      "page": "main",
+      "element_tag": "#page-menu-navigation-element-4"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 5,
+    "fields": {
+      "page": "main",
+      "element_tag": "#page-menu-navigation-element-5"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 6,
+    "fields": {
+      "page": "main",
+      "element_tag": "#page-menu-navigation-element-6"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 1,
+    "fields": {
+      "website_element": 1,
+      "attribute": "text",
+      "value": "Главная"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 2,
+    "fields": {
+      "website_element": 1,
+      "attribute": "href",
+      "value": "https://google.com/search?q=1"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 3,
+    "fields": {
+      "website_element": 2,
+      "attribute": "text",
+      "value": "Технология"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 4,
+    "fields": {
+      "website_element": 2,
+      "attribute": "href",
+      "value": "https://google.com/search?q=2"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 5,
+    "fields": {
+      "website_element": 3,
+      "attribute": "text",
+      "value": "График полётов"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 6,
+    "fields": {
+      "website_element": 3,
+      "attribute": "href",
+      "value": "https://google.com/search?q=3"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 7,
+    "fields": {
+      "website_element": 4,
+      "attribute": "text",
+      "value": "Гарантии"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 8,
+    "fields": {
+      "website_element": 4,
+      "attribute": "href",
+      "value": "https://google.com/search?q=4"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 9,
+    "fields": {
+      "website_element": 5,
+      "attribute": "text",
+      "value": "О компании"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 10,
+    "fields": {
+      "website_element": 5,
+      "attribute": "href",
+      "value": "https://google.com/search?q=5"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 11,
+    "fields": {
+      "website_element": 6,
+      "attribute": "text",
+      "value": "Контакты"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 12,
+    "fields": {
+      "website_element": 6,
+      "attribute": "href",
+      "value": "https://google.com/search?q=6"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 7,
+    "fields": {
+      "page": "main",
+      "element_tag": "#company-description-section-benefits-container-element-up-left-small-text-top"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 8,
+    "fields": {
+      "page": "main",
+      "element_tag": "#company-description-section-benefits-container-element-up-left-small-text-bottom"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 9,
+    "fields": {
+      "page": "main",
+      "element_tag": "#company-description-section-benefits-container-element-up-left-large-text"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 10,
+    "fields": {
+      "page": "main",
+      "element_tag": "#company-description-section-benefits-container-element-up-right-small-text-top"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 11,
+    "fields": {
+      "page": "main",
+      "element_tag": "#company-description-section-benefits-container-element-up-right-small-text-bottom"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 12,
+    "fields": {
+      "page": "main",
+      "element_tag": "#company-description-section-benefits-container-element-up-right-large-text"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 13,
+    "fields": {
+      "page": "main",
+      "element_tag": "#company-description-section-benefits-container-element-down-left-small-text-top"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 14,
+    "fields": {
+      "page": "main",
+      "element_tag": "#company-description-section-benefits-container-element-down-left-small-text-bottom"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 15,
+    "fields": {
+      "page": "main",
+      "element_tag": "#company-description-section-benefits-container-element-down-left-large-text"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 16,
+    "fields": {
+      "page": "main",
+      "element_tag": "#company-description-section-benefits-container-element-down-right-small-text-top"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 17,
+    "fields": {
+      "page": "main",
+      "element_tag": "#company-description-section-benefits-container-element-down-right-small-text-bottom"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 18,
+    "fields": {
+      "page": "main",
+      "element_tag": "#company-description-section-benefits-container-element-down-right-large-text"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 13,
+    "fields": {
+      "website_element": 7,
+      "attribute": "text",
+      "value": "мы"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 14,
+    "fields": {
+      "website_element": 8,
+      "attribute": "text",
+      "value": "на рынке"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 15,
+    "fields": {
+      "website_element": 9,
+      "attribute": "text",
+      "value": "1"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 16,
+    "fields": {
+      "website_element": 10,
+      "attribute": "text",
+      "value": "гарантируем"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 17,
+    "fields": {
+      "website_element": 11,
+      "attribute": "text",
+      "value": "безопасность"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 18,
+    "fields": {
+      "website_element": 12,
+      "attribute": "text",
+      "value": "50%"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 19,
+    "fields": {
+      "website_element": 13,
+      "attribute": "text",
+      "value": "календарик за"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 20,
+    "fields": {
+      "website_element": 14,
+      "attribute": "text",
+      "value": "в подарок"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 21,
+    "fields": {
+      "website_element": 15,
+      "attribute": "text",
+      "value": "2001 г"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 22,
+    "fields": {
+      "website_element": 16,
+      "attribute": "text",
+      "value": "путешествие"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 23,
+    "fields": {
+      "website_element": 17,
+      "attribute": "text",
+      "value": "дней"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 24,
+    "fields": {
+      "website_element": 18,
+      "attribute": "text",
+      "value": "597"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 19,
+    "fields": {
+      "page": "main",
+      "element_tag": ".company-description-section-clickable-information-container-text-container-large-text"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 20,
+    "fields": {
+      "page": "main",
+      "element_tag": ".company-description-section-clickable-information-container-text-container-small-text"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 25,
+    "fields": {
+      "website_element": 19,
+      "attribute": "text",
+      "value": "путешествие"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 26,
+    "fields": {
+      "website_element": 20,
+      "attribute": "text",
+      "value": "на красную планету"
+    }
+  },
+  {
+    "model": "main.websiteelements",
+    "pk": 21,
+    "fields": {
+      "page": "main",
+      "element_tag": ".company-description-section-clickable-information-container-start-button-text"
+    }
+  },
+  {
+    "model": "main.websiteelementsmetadata",
+    "pk": 27,
+    "fields": {
+      "website_element": 21,
+      "attribute": "text",
+      "value": "Начать путешествие"
+    }
+  }
+]
