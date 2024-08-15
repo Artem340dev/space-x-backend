@@ -15,14 +15,15 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy the current directory contents into the container at /app
-COPY . /app
 
 # Install Python dependencies
 RUN pip install --upgrade pip
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+COPY . .
 # Expose port 8000 to the outside world
 EXPOSE 8000
 
 # Run the command to start the Django app
-CMD ["python", "manage.py", "runserver", "66.151.42.131:8000"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
