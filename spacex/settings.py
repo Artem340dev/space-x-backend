@@ -23,27 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-sht4pb6s7$$g%jbjobocnp=j9fnzp5&%93_t)l_i_wr)zll64i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['66.151.42.131', 'localhost', '127.0.0.1']
-
-LOGGING = {
-    # ...
-    "handlers": {
-        # ...
-        "null": {
-            "class": "logging.NullHandler",
-        },
-    },
-    "loggers": {
-        # ...
-        "django.security.DisallowedHost": {
-            "handlers": ["null"],
-            "propagate": False,
-        },
-    },
-}
-
+ALLOWED_HOSTS = []
 
 # Application definition
 

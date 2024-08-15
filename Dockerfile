@@ -25,10 +25,5 @@ COPY . .
 # Expose port 8000 to the outside world
 EXPOSE 8000
 
-ENV DJANGO_SETTINGS_MODULE=myproject.settings
-
-# Run django's migrations
-RUN python manage.py migrate
-
 # Run the command to start the Django app
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
