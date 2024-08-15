@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: python manage.py runserver 66.151.42.131:8000
+    command: python manage.py runserver 127.0.0.1:8000
     ports:
       - "8000:8000"
     environment:
